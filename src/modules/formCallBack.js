@@ -26,8 +26,6 @@ export const formCallback = () => {
         const formData = new FormData(form)
         const data = Object.fromEntries(formData.entries())
 
-        console.log('Отправляем:', data)
-
         fetch('server.php', {
             method: 'POST',
             headers: {
