@@ -20,8 +20,6 @@ export const formCallback = () => {
     form.addEventListener('submit', (event) => {
         event.preventDefault()
 
-        console.log('submit сработал')
-
         button.value = 'Идёт отправка...'
         button.disabled = true
 
